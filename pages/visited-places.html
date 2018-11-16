@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Oh the places I've been</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../main.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald" rel="stylesheet">
+  </head>
+  <body>
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
+  <a class="navbar-brand" href="#">Top of Page</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="resume.html">Resume</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Where I've Been and Where I Want To Go</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>  
+    </uvf
+  </div>
+      </nav>
+    
+    <form class="form boxes" id="placesForm" action="">
+      <h2>Search thru some places I've been, places I want to go, or both!</h2>
+      <div id="searchBar">
+         <label for="search">Search my Places:</label>
+         <input id="search" name="search" type="text">
+      </div>
+      <div id = "buttons">
+         <label for="been">Places I've Been:</label>
+         <input id="been" name ="placeChoice"type="radio">
+         <label for="want">Places I Want To Go:</label>
+         <input id="want" name="placeChoice" type="radio">
+      </div>
+      <div>
+         <label for="both">Both:</label>
+         <input id="both" name="placeChoice" type="radio" checked="checked">
+      </div>
+      <div id = "placesBtn">
+         <button id="see-places">Show me!</button>
+      </div>
+    </form>
+    
+   <div class="container" id="favorite-container">
+    <div id="output-places" class="row">
+       
+    </div>
+    </div>
+    
+    <div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src = "../get-places.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   </div>
+  </body>
+</html>

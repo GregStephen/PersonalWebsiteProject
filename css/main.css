@@ -1,0 +1,230 @@
+/*////////////////// EVERY PAGE CSS //////////////////////////*/
+body{
+  
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color:lightblue;
+}
+
+.pageBreak {
+  margin-top:1.25em;
+  margin-bottom:1.25em;
+}
+
+.card{
+  margin:.5em;
+  min-width:10em;
+  max-width: 200em;
+}
+
+h1, h2{
+  color: #FF4500;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+p{
+  font-family: 'Oswald', sans-serif;
+}
+.navbar, .wantToGo {
+  background-color:#FF4500;
+}
+.active, .underline {
+  text-decoration:underline;
+}
+
+/*/////////////////// MAIN PAGE CSS //////////////////////////*/
+
+
+.main-section{
+  margin-top:6em;
+}
+
+#profile-pic{
+  margin-top:1.5em;
+  margin-bottom:3em;
+  width:15em;
+  border-radius:50%;
+  border:.4em solid #FF4500;
+  -webkit-box-shadow: -2px -2px 35px -5px rgba(0,0,0,0.57);
+  -moz-box-shadow: -2px -2px 35px -5px rgba(0,0,0,0.57);
+  box-shadow: -2px -2px 35px -5px rgba(0,0,0,0.57);
+}
+
+.page{
+/*   margin: 0 auto; */
+}
+.bio{
+  width: 80%;
+  margin:auto;
+}
+
+#welcome{
+  margin-bottom:3em;
+}
+
+.favorite{
+  min-width:20em;
+  max-width:25em;
+}
+
+
+/*////////////////////// CONTACT PAGE CSS /////////////////////*/
+.contact-form{
+/*   background-color: #3454; */
+/*   padding-bottom:2em; */
+  
+}
+
+.uptop{
+  color:#FF4500;
+  margin-bottom:2em;
+  font-size:2em;
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  margin-top:4em;
+  
+  
+}
+.name, .email, .message, .submit{
+  width:75%;
+  display:block;
+  margin:auto;
+  margin-bottom:2em;
+  min-height:3em;
+}
+
+.button{
+  background-color:#FF4500;
+  margin-bottom:2em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:1.2em;
+}
+
+
+/*//////////// The Modal (background) ///////*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: .3em solid black;
+    width: 80%; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+/*Animation*/
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+.modal-message {
+  font-family: 'Josefin Sans', sans-serif;
+ 
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*////////////// RESUME STYLESSSSS ////////////////////*/
+
+#resume{
+  padding-top:5em;
+}
+.boxes{
+  border: 1em solid #FF4500;
+  margin:1em;
+  border-radius: 15%;
+ -webkit-box-shadow: -31px 20px 45px 2px rgba(0,0,0,0.57);
+-moz-box-shadow: -31px 20px 45px 2px rgba(0,0,0,0.57);
+box-shadow: -31px 20px 45px 2px rgba(0,0,0,0.57);
+}
+
+.github{
+  z-index: 1;
+}
+
+.fab{
+  margin:.25em;
+  color:black;
+  
+}
+.fab:hover{
+  color:#FF4500
+}
+
+.resumeHeader{
+  margin-top:1em;
+  margin-bottom:2em;
+  
+}
+
+
+/*////////////////// PLACES IVE BEEN ///////////////////*/
+
+.places-cards{
+  min-width:25em;
+  max-width:35em;
+}
+#output-places{
+  margin-top:6em;
+}
+.card-img-top{
+  width: 100%;
+  height: 250px;
+ 
+}
+/*  
+#location-image{
+  margin-top:4em;
+} */
+
+.form{
+  max-width:70%;
+  max-height:50em;
+  margin:auto;
+  margin-top:5em;
+  padding:3.5em;
+
+  
+}
+#searchBar{
+  margin-top:3em;
+}
+.card-footer{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25em;
+}
+
+.card-header{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.75em;
+}
